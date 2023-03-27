@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.1rem;
+  @media only screen and (max-width: 960px) {
+    margin-top: 1.1rem;
+  }
+
+  @media only screen and (max-width: 609px) {
+    margin-top: 1.3rem;
+  }
+
+  & > .btn_round {
+    &:not(:last-child) {
+      margin-right: 2rem;
+      @media only screen and (max-width: 609px) {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
