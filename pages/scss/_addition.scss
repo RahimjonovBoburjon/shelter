@@ -1,0 +1,143 @@
+.addition {
+  background: #f6f6f6;
+  padding: 8.1rem 0 10.1rem 0;
+  @media only screen and (max-width: 980px) {
+    padding: 8.2rem 0 9.8rem 0;
+  }
+
+  @media only screen and (max-width: 400px) {
+    padding: 4.1rem 0;
+  }
+  &__inner {
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 980px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__photo {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    @media only screen and (max-width: 980px) {
+      margin-right: 0rem;
+      margin-top: 5.9rem;
+      order: 2;
+    }
+
+    & > img {
+      width: 100%;
+    }
+    @media only screen and (max-width: 530px) {
+      margin-right: 0;
+      max-width: 26rem;
+    }
+
+    @media only screen and (max-width: 400px) {
+      margin-top: 4.2rem;
+    }
+  }
+
+  &__info {
+    @media only screen and (max-width: 707px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    max-width: 30rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    color: #545454;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 707px) {
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 400px) {
+      font-size: 2.7rem;
+      line-height: 3.2rem;
+      max-width: 24rem;
+      margin-bottom: 2.3rem;
+    }
+  }
+
+  &__subtitle {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    color: #545454;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 707px) {
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 400px) {
+      line-height: 2.4rem;
+      min-width: 27.3rem;
+      font-size: 1.3rem;
+      letter-spacing: 0.9px;
+      margin-bottom: 1.8rem;
+    }
+  }
+
+  &__donate {
+    background: #f1cdb3;
+    padding: 1rem 1.5rem;
+    border-radius: 9px;
+    display: flex;
+    text-decoration: none;
+    max-width: 32rem;
+    transition: all 0.2s linear;
+    color: #545454;
+    margin-bottom: 2rem;
+
+    &:hover {
+      background: #fddcc4;
+      text-decoration: underline;
+    }
+  }
+
+  &__card-icon {
+    margin-right: 1.5rem;
+  }
+
+  &__number-card {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    color: #545454;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.06em;
+
+    @media only screen and (max-width: 400px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__description {
+    max-width: 38rem;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #b2b2b2;
+    @media only screen and (max-width: 400px) {
+      margin-left: 1rem;
+      letter-spacing: 0.3px;
+      word-spacing: 0.1px;
+    }
+  }
+}

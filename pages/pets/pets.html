@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/normalise.css" />
+    <title>Pets</title>
+  </head>
+  <body >
+    <main class="main">
+      <!--Header-->
+
+      <div class="wrapper__header">
+        <header id="pets-header" class="pets-header">
+          <div class="wrapper__content">
+            <div class="pets-header__inner">
+              <a class="header__logo-link" href="../main/index.html">
+                <div class="header__logo">
+                  <h1 class="header__logo-title header__logo-title_pets">
+                    Cozy House
+                  </h1>
+                  <h4 class="header__logo-subtitle header__logo-subtitle_pets">
+                    Shelter for pets in Boston
+                  </h4>
+                </div></a>
+              
+              <ul class="header__nav">
+                <li class="header__nav-item">
+                  <a href="../main/index.html" class="header__nav-link header__nav-link_pets"
+                    >About the shelter</a
+                  >
+                </li>
+                <li class="header__nav-item">
+                  <a
+                    href="../pets/pets.html"
+                    class="header__nav-link header__nav-link_pets header__nav-link_active"
+                    >Our pets</a
+                  >
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link header__nav-link_pets header__nav-link_deactivate"
+                    >Help the shelter</a
+                  >
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link header__nav-link_pets header__nav-link_deactivate"
+                    >Contacts</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+  
+  
+        <button id="pets-header__button-burger" class="pets-header__button-burger">
+          <img src="../../assets/icons/pets-burger.svg" alt="burger">
+        </button>
+  
+        <!--Header mobile-->
+        <div id="pets-header-mobile" class="pets-header-mobile ">
+          <div class="pets-header-mobile__inner">
+            <div class="pets-header-mobile__top">
+              <a class="header__logo-link" href="../main/index.html">
+                <div class="header__logo">
+                  <h1 class="header__logo-title header__logo-title_pets">
+                    Cozy House
+                  </h1>
+                  <h4 class="header__logo-subtitle header__logo-subtitle_pets">
+                    Shelter for pets in Boston
+                  </h4>
+                </div></a>
+            </div>
+        
+            <ul class="pets-header-mobile__nav">
+              <li class="header__nav-item pets-header__nav-item_mobile">
+                <a
+                  href="../main/index.html"
+                  class="header__nav-link  pets-header__nav-link_mobile"
+                  >About the shelter</a
+                >
+              </li>
+              <li class="header__nav-item pets-header__nav-item_mobile">
+                <a
+                  href="#"
+                  class="header__nav-link pets-header__nav-link_mobile header__nav-link_active"
+                  >Our pets</a
+                >
+              </li>
+              <li class="header__nav-item pets-header__nav-item_mobile">
+                <a class="header__nav-link pets-header__nav-link_mobile header__nav-link_deactivate"
+                  >Help the shelter</a
+                >
+              </li>
+              <li class="header__nav-item header__nav-item_mobile">
+                <a class="header__nav-link pets-header__nav-link_mobile header__nav-link_deactivate"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+
+
+
+      <!--Our Friends-->
+      <section class="our-friends our-friends_pets">
+        <div class="wrapper__content">
+          
+          <h3 class="our-friends__title our-friends__title_pets">
+            Our friends who <br />are looking for a house
+          </h3>
+
+          <div id="our-friends__cards" class="our-friends__cards animate"></div>
+
+
+          <div class="pagination">
+            <button id="doublePrevPage" class="btn_round btn_round-pagination-doubleprev btn_round-pagination-doubleprev-inactive"></button>
+            <button id="prevPage" class="btn_round btn_round-pagination-prev btn_round-pagination-prev-inactive"></button>
+            <button id="countPage" class="btn_round btn_round-pagination-count">1</button>
+            <button id="nextPage" class="btn_round btn_round-pagination-next "></button>
+            <button id="doubleNextPage" class="btn_round btn_round-pagination-doublenext"></button>
+          </div>
+
+      </section>
+      <!--Footer-->
+      <footer class="footer">
+        <div class="wrapper__content">
+          <div class="footer__inner">
+            <div class="footer__questions">
+              <h3 class="footer__questions-title">For questions and suggestions</h3>
+              <a class="footer__questions-mail" href="mailto:email@shelter.com">
+                <img class="footer__questions-mail-icon" src="../../assets/icons/icon-email.svg" alt="icon-email">
+                <p class="footer__questions-mail-text">email@shelter.com</p> 
+              </a>
+              <a class="footer__questions-phone" href="tel: +13 674 567 75 54">
+                <img class="footer__questions-phone-icon" src="../../assets/icons/icon-phone.svg" alt="icon-phone">
+                <p class="footer__questions-phone-text">+13 674 567 75 54</p> 
+              </a>
+            </div>
+
+            <div class="footer__visit">
+              <h3 class="footer__visit-title">We are waiting for your visit</h3>
+              <a class="footer__visit-location" href="https://goo.gl/maps/NHZQjo1vRc8rjxCt6" target="_blank">
+                <img class="footer__visit-location-icon" src="../../assets/icons/icon-marker.svg" alt="icon-marker">
+                <p class="footer__visit-location-text">1 Central Street, Boston (entrance from the store)</p> 
+              </a>
+              <a class="footer__visit-location" href="https://goo.gl/maps/FpkJaz63oVMrm53x7" target="_blank">
+                <img class="footer__visit-location-icon" src="../../assets/icons/icon-marker.svg" alt="icon-marker">
+                <p class="footer__visit-location-text">18 South Park, London</p> 
+              </a>
+            </div>
+
+            <figure class="footer__photo">
+              <img
+                src="../../assets/images/footer-dog.png"
+                alt="footer-dog"
+              />
+            </figure>
+          </div>
+        </div>
+      </footer>
+
+      
+      
+    </main>
+
+          <!--Learn More-->
+      <!--Modal-->
+      <div class="modal__learn-more" id="modal__learn-more">
+        <div class="modal__content-wrapper">
+          <button class="modal__button-close" id="modal__button-close"></button>
+          <div class="modal__content">
+            <figure class="modal__content-photo">
+              <img class="modal__content-img"
+                src="../../assets/images/jennifer.png"
+                alt="modal-pets"
+              />
+            </figure>
+            <div class="modal__content-description">
+              <h3 class="modal__content-name"></h3>
+              <p class="modal__content-pet-breed"></p>
+              <p class="modal__content-pet-description"></p>
+              <ul class="modal__content-pet-criteria">
+                <li class="modal__content-pet-criterion"></li>
+                <li class="modal__content-pet-criterion"></li>
+                <li class="modal__content-pet-criterion"></li>
+                <li class="modal__content-pet-criterion"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal__overlay"></div>
+
+
+    <!--Scripts-->
+    <script src="pets.js"></script>
+  </body>
+</html>

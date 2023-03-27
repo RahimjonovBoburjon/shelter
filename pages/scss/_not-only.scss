@@ -1,0 +1,102 @@
+.not-only {
+  display: flex;
+  margin-top: 0.1rem;
+
+  @media only screen and (max-width: 1130px) {
+    padding-top: 3.2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__info {
+    max-width: 46rem;
+    margin-right: 4.2rem;
+    margin-top: 16.3rem;
+    @media only screen and (max-width: 1130px) {
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 11.5rem;
+    }
+
+    @media only screen and (max-width: 707px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media only screen and (max-width: 400px) {
+      margin-bottom: 10.6rem;
+    }
+  }
+
+  &__title {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.4rem;
+    line-height: 5.7rem;
+    color: #ffffff;
+    max-width: 31rem;
+    margin-bottom: 4rem;
+    @media only screen and (max-width: 707px) {
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 400px) {
+      font-size: 2.5rem;
+      line-height: 3.2rem;
+      max-width: 23rem;
+      letter-spacing: 1.2px;
+      word-spacing: 0.8px;
+    }
+  }
+
+  &__description {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    color: #cdcdcd;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-bottom: 5.6rem;
+
+    @media only screen and (max-width: 1130px) {
+      margin-bottom: 5.7rem;
+    }
+    @media only screen and (max-width: 707px) {
+      margin-bottom: 4.3rem;
+      text-align: center;
+    }
+  }
+
+  &__photo {
+    height: 72.6rem;
+
+    & > img {
+      height: 100%;
+    }
+
+    @media only screen and (max-width: 1130px) {
+      max-height: 59.3rem;
+      margin-left: 14rem;
+    }
+
+    @media only screen and (max-width: 707px) {
+      margin-left: 5rem;
+      max-height: 57.1rem;
+    }
+
+    @media only screen and (max-width: 610px) {
+      margin-left: 0;
+      max-height: 37.1rem;
+    }
+
+    @media only screen and (max-width: 480px) {
+      max-height: 27.1rem;
+    }
+
+    @media only screen and (max-width: 400px) {
+      margin-left: 4rem;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.wrapper__bg {
+  background-image: url(../../assets/images/header-bg.png);
+  background-size: cover;
+}
+
+.wrapper__content {
+  max-width: 1200px;
+  padding: 0 40px;
+  margin: 0 auto;
+  @media only screen and (max-width: 768px) {
+    padding: 0 30px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    padding: 0 10px;
+  }
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+@import "_header";
+@import "_not-only";
+@import "_btn";
+@import "_about";
+@import "_our-friends";
+@import "_help";
+@import "_addition";
+@import "_footer";
+@import "_pagination";
+@import "_card-pets";
+@import "_modal";

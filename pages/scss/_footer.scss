@@ -1,0 +1,138 @@
+.footer {
+  background: radial-gradient(
+      110.67% 538.64% at 5.73% 50%,
+      #513d2f 0%,
+      #1a1a1c 100%
+    ),
+    #211f20;
+  height: auto;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: top;
+    padding: 3.6rem 0 0 0;
+
+    @media only screen and (max-width: 980px) {
+      padding: 0.8rem 3.4rem 0 3.4rem;
+    }
+
+    @media only screen and (max-width: 707px) {
+      justify-content: center;
+    }
+  }
+
+  &__photo {
+    max-height: 31.5rem;
+    @media only screen and (max-width: 980px) {
+      margin-top: 6.1rem;
+      margin-left: 17rem;
+    }
+
+    @media only screen and (max-width: 707px) {
+      margin-top: 4rem;
+      margin-left: 0;
+    }
+
+    & > img {
+      height: auto;
+      @media only screen and (max-width: 400px) {
+        max-height: 26.9rem;
+        min-width: 26rem;
+      }
+    }
+  }
+
+  &__questions {
+    @media only screen and (max-width: 707px) {
+      margin-bottom: 2rem;
+    }
+
+    &-title {
+      @media only screen and (max-width: 707px) {
+        text-align: center;
+      }
+      margin-bottom: 4rem;
+    }
+
+    &-phone {
+      @media only screen and (max-width: 707px) {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  &__visit {
+    &-title {
+      @media only screen and (max-width: 707px) {
+        margin: 0 auto 3.8rem auto;
+      }
+      margin-bottom: 3.3rem;
+    }
+
+    &-location {
+      @media only screen and (max-width: 707px) {
+        min-width: 30rem;
+      }
+    }
+  }
+
+  &__questions,
+  &__visit {
+    margin-top: 2.1rem;
+    &-title {
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3.4rem;
+      line-height: 4.5rem;
+      letter-spacing: 0.07em;
+      word-spacing: 0.05em;
+      color: #ffffff;
+      max-width: 27.8rem;
+
+      @media only screen and (max-width: 707px) {
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+        max-width: 27rem;
+        letter-spacing: 1px;
+      }
+    }
+
+    &-mail {
+      margin-bottom: 4rem;
+    }
+
+    &-location {
+      max-width: 30.2rem;
+      &:not(:last-child) {
+        margin-bottom: 3.3rem;
+
+        @media only screen and (max-width: 707px) {
+          margin-bottom: 3.9rem;
+        }
+      }
+    }
+
+    &-mail,
+    &-phone,
+    &-location {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+
+      &-text {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 2.3rem;
+        letter-spacing: 0.06em;
+        color: #f1cdb3;
+        margin-left: 2rem;
+      }
+    }
+  }
+}
